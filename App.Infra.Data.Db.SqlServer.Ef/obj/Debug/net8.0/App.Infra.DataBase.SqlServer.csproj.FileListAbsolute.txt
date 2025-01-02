@@ -1,0 +1,17 @@
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\bin\Debug\net8.0\App.Infra.DataBase.SqlServer.deps.json
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\bin\Debug\net8.0\App.Infra.DataBase.SqlServer.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\bin\Debug\net8.0\App.Infra.DataBase.SqlServer.pdb
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\bin\Debug\net8.0\App.Domain.Core.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\bin\Debug\net8.0\App.Domain.Core.pdb
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infra.DataBase.SqlServer.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infra.DataBase.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infra.DataBase.SqlServer.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infra.DataBase.SqlServer.AssemblyInfo.cs
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infra.DataBase.SqlServer.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infr.D8BC501F.Up2Date
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infra.DataBase.SqlServer.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\obj\Debug\net8.0\refint\App.Infra.DataBase.SqlServer.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infra.DataBase.SqlServer.pdb
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\obj\Debug\net8.0\ref\App.Infra.DataBase.SqlServer.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\bin\Debug\net8.0\App.Infra.DataBase.SqlServer.runtimeconfig.json
+C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infra.DataBase.SqlServer.genruntimeconfig.cache

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\App.EndPoints.MVC.Core-App.props" />
+</Project>

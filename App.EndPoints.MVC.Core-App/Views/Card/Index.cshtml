@@ -1,0 +1,35 @@
+﻿@using App.Domain.Core.Core_App.CardAggrigate.Entities
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<Card>
+<div class="table-responsive">
+    <table class="table table-striped table-hover table-bordered table-sm ">
+        <caption>Your Bank Cards</caption>
+        <thead>
+            <tr class="bg-success">
+                <th scope="col">Card number</th>
+                <th scope="col">Password</th>
+                <th scope="col">Balance</th>
+                <th scope="col">State</th>
+                <th scope="col">Card Transactions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var card in @Model)
+            {
+                <tr>
+                    <td scope="row">@card.CardNumber</td>
+                    <td>@card.Password</td>
+                    <td>@card.Balance</td>
+                    <td>@card.IsActive</td>
+                    <td>
+                        <button class="btn btn-success" type="button" asp-action="Transaction" asp-route-cardnumber="@card.CardNumber">Card Transactions</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

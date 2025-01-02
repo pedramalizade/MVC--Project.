@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Core-App\BaseData\" />
+    <Folder Include="Core-App\Course\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Domain.Core\App.Domain.Core.csproj" />
+    <ProjectReference Include="..\App.Infra.Data.QS.SqlServer.Dapper\App.Infra.DataAccess.Dapper.csproj" />
+    <ProjectReference Include="..\App.Infra.Data.Repos.Ef\App.Infra.DataAccess.Ef.csproj" />
+    <ProjectReference Include="..\App.Infra.DataBase.InMemory\App.Infra.DataBase.InMemory.csproj" />
+  </ItemGroup>
+
+</Project>

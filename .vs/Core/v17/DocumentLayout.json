@@ -1,0 +1,617 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asus\\source\\repos\\Core\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\views\\card\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\views\\card\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\views\\card\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\views\\card\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E6420F1-1D26-45FA-BBBF-5679ABBDC6BC}|App.Domain.Service\\App.Domain.Service.csproj|c:\\users\\asus\\source\\repos\\core\\app.domain.service\\core-app\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E6420F1-1D26-45FA-BBBF-5679ABBDC6BC}|App.Domain.Service\\App.Domain.Service.csproj|solutionrelative:app.domain.service\\core-app\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480A22F2-B627-45FE-8C9D-941F27FDAF94}|App.Infra.Data.QS.SqlServer.Dapper\\App.Infra.DataAccess.Dapper.csproj|c:\\users\\asus\\source\\repos\\core\\app.infra.data.qs.sqlserver.dapper\\core-app\\user\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480A22F2-B627-45FE-8C9D-941F27FDAF94}|App.Infra.Data.QS.SqlServer.Dapper\\App.Infra.DataAccess.Dapper.csproj|solutionrelative:app.infra.data.qs.sqlserver.dapper\\core-app\\user\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A09A4D7F-5C67-4F4A-9DE7-0795A538BB69}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\core\\app.domain.core\\core-app\\useraggrigate\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A09A4D7F-5C67-4F4A-9DE7-0795A538BB69}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\core-app\\useraggrigate\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B348F08-E77C-4D97-B087-7C05238ED531}|App.Domain.AppService\\App.Domain.AppService.csproj|c:\\users\\asus\\source\\repos\\core\\app.domain.appservice\\core-app\\user\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B348F08-E77C-4D97-B087-7C05238ED531}|App.Domain.AppService\\App.Domain.AppService.csproj|solutionrelative:app.domain.appservice\\core-app\\user\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480A22F2-B627-45FE-8C9D-941F27FDAF94}|App.Infra.Data.QS.SqlServer.Dapper\\App.Infra.DataAccess.Dapper.csproj|c:\\users\\asus\\source\\repos\\core\\app.infra.data.qs.sqlserver.dapper\\core-app\\transaction\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480A22F2-B627-45FE-8C9D-941F27FDAF94}|App.Infra.Data.QS.SqlServer.Dapper\\App.Infra.DataAccess.Dapper.csproj|solutionrelative:app.infra.data.qs.sqlserver.dapper\\core-app\\transaction\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{029A2271-ABBB-4075-BE50-E0E3E4577870}|App.Infra.Data.Repos.Ef\\App.Infra.DataAccess.Ef.csproj|c:\\users\\asus\\source\\repos\\core\\app.infra.data.repos.ef\\core-app\\transaction\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{029A2271-ABBB-4075-BE50-E0E3E4577870}|App.Infra.Data.Repos.Ef\\App.Infra.DataAccess.Ef.csproj|solutionrelative:app.infra.data.repos.ef\\core-app\\transaction\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{029A2271-ABBB-4075-BE50-E0E3E4577870}|App.Infra.Data.Repos.Ef\\App.Infra.DataAccess.Ef.csproj|c:\\users\\asus\\source\\repos\\core\\app.infra.data.repos.ef\\core-app\\user\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{029A2271-ABBB-4075-BE50-E0E3E4577870}|App.Infra.Data.Repos.Ef\\App.Infra.DataAccess.Ef.csproj|solutionrelative:app.infra.data.repos.ef\\core-app\\user\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B348F08-E77C-4D97-B087-7C05238ED531}|App.Domain.AppService\\App.Domain.AppService.csproj|c:\\users\\asus\\source\\repos\\core\\app.domain.appservice\\core-app\\card\\cardappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B348F08-E77C-4D97-B087-7C05238ED531}|App.Domain.AppService\\App.Domain.AppService.csproj|solutionrelative:app.domain.appservice\\core-app\\card\\cardappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A09A4D7F-5C67-4F4A-9DE7-0795A538BB69}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\core\\app.domain.core\\core-app\\useraggrigate\\appservice\\iuserappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A09A4D7F-5C67-4F4A-9DE7-0795A538BB69}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\core-app\\useraggrigate\\appservice\\iuserappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A09A4D7F-5C67-4F4A-9DE7-0795A538BB69}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\core\\app.domain.core\\core-app\\useraggrigate\\data\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A09A4D7F-5C67-4F4A-9DE7-0795A538BB69}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\core-app\\useraggrigate\\data\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\models\\onlineusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\models\\onlineusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EBFE76E-72FA-40DB-82D5-D804D0667783}|App.Infra.Data.Db.SqlServer.Ef\\App.Infra.DataBase.SqlServer.csproj|c:\\users\\asus\\source\\repos\\core\\app.infra.data.db.sqlserver.ef\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EBFE76E-72FA-40DB-82D5-D804D0667783}|App.Infra.Data.Db.SqlServer.Ef\\App.Infra.DataBase.SqlServer.csproj|solutionrelative:app.infra.data.db.sqlserver.ef\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EBFE76E-72FA-40DB-82D5-D804D0667783}|App.Infra.Data.Db.SqlServer.Ef\\App.Infra.DataBase.SqlServer.csproj|c:\\users\\asus\\source\\repos\\core\\app.infra.data.db.sqlserver.ef\\migrations\\20250102181102_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EBFE76E-72FA-40DB-82D5-D804D0667783}|App.Infra.Data.Db.SqlServer.Ef\\App.Infra.DataBase.SqlServer.csproj|solutionrelative:app.infra.data.db.sqlserver.ef\\migrations\\20250102181102_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EBFE76E-72FA-40DB-82D5-D804D0667783}|App.Infra.Data.Db.SqlServer.Ef\\App.Infra.DataBase.SqlServer.csproj|c:\\users\\asus\\source\\repos\\core\\app.infra.data.db.sqlserver.ef\\userconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EBFE76E-72FA-40DB-82D5-D804D0667783}|App.Infra.Data.Db.SqlServer.Ef\\App.Infra.DataBase.SqlServer.csproj|solutionrelative:app.infra.data.db.sqlserver.ef\\userconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\views\\user\\transfer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\views\\user\\transfer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\views\\card\\transaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\views\\card\\transaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\views\\account\\chooseaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\views\\account\\chooseaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|c:\\users\\asus\\source\\repos\\core\\app.endpoints.mvc.core-app\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{44DA616C-FA48-47AE-BA4E-6B76C5B730B6}|App.EndPoints.MVC.Core-App\\App.EndPoints.MVC.Core-App.csproj|solutionrelative:app.endpoints.mvc.core-app\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A09A4D7F-5C67-4F4A-9DE7-0795A538BB69}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\core\\app.domain.core\\core-app\\useraggrigate\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A09A4D7F-5C67-4F4A-9DE7-0795A538BB69}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\core-app\\useraggrigate\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A09A4D7F-5C67-4F4A-9DE7-0795A538BB69}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\core\\app.domain.core\\core-app\\cardaggrigate\\entities\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A09A4D7F-5C67-4F4A-9DE7-0795A538BB69}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\core-app\\cardaggrigate\\entities\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A09A4D7F-5C67-4F4A-9DE7-0795A538BB69}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\core\\app.domain.core\\core-app\\transactionaggrigate\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A09A4D7F-5C67-4F4A-9DE7-0795A538BB69}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\core-app\\transactionaggrigate\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E6420F1-1D26-45FA-BBBF-5679ABBDC6BC}|App.Domain.Service\\App.Domain.Service.csproj|c:\\users\\asus\\source\\repos\\core\\app.domain.service\\core-app\\card\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E6420F1-1D26-45FA-BBBF-5679ABBDC6BC}|App.Domain.Service\\App.Domain.Service.csproj|solutionrelative:app.domain.service\\core-app\\card\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B348F08-E77C-4D97-B087-7C05238ED531}|App.Domain.AppService\\App.Domain.AppService.csproj|c:\\users\\asus\\source\\repos\\core\\app.domain.appservice\\core-app\\transaction\\transactionappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B348F08-E77C-4D97-B087-7C05238ED531}|App.Domain.AppService\\App.Domain.AppService.csproj|solutionrelative:app.domain.appservice\\core-app\\transaction\\transactionappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A09A4D7F-5C67-4F4A-9DE7-0795A538BB69}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\core\\app.domain.core\\core-app\\cardaggrigate\\appservice\\icardappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A09A4D7F-5C67-4F4A-9DE7-0795A538BB69}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\core-app\\cardaggrigate\\appservice\\icardappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 388,
+          "SelectedChildIndex": 34,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.QS.SqlServer.Dapper\\Core-App\\Transaction\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "App.Infra.Data.QS.SqlServer.Dapper\\Core-App\\Transaction\\TransactionRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.QS.SqlServer.Dapper\\Core-App\\Transaction\\TransactionRepository.cs",
+              "RelativeToolTip": "App.Infra.Data.QS.SqlServer.Dapper\\Core-App\\Transaction\\TransactionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T19:03:06.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Repos.Ef\\Core-App\\Transaction\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "App.Infra.Data.Repos.Ef\\Core-App\\Transaction\\TransactionRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Repos.Ef\\Core-App\\Transaction\\TransactionRepository.cs",
+              "RelativeToolTip": "App.Infra.Data.Repos.Ef\\Core-App\\Transaction\\TransactionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T19:03:02.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.QS.SqlServer.Dapper\\Core-App\\User\\UserRepository.cs",
+              "RelativeDocumentMoniker": "App.Infra.Data.QS.SqlServer.Dapper\\Core-App\\User\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.QS.SqlServer.Dapper\\Core-App\\User\\UserRepository.cs",
+              "RelativeToolTip": "App.Infra.Data.QS.SqlServer.Dapper\\Core-App\\User\\UserRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T19:02:16.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Repos.Ef\\Core-App\\User\\UserRepository.cs",
+              "RelativeDocumentMoniker": "App.Infra.Data.Repos.Ef\\Core-App\\User\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Repos.Ef\\Core-App\\User\\UserRepository.cs",
+              "RelativeToolTip": "App.Infra.Data.Repos.Ef\\Core-App\\User\\UserRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:46:16.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Service\\Core-App\\User\\UserService.cs",
+              "RelativeDocumentMoniker": "App.Domain.Service\\Core-App\\User\\UserService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Service\\Core-App\\User\\UserService.cs",
+              "RelativeToolTip": "App.Domain.Service\\Core-App\\User\\UserService.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:44:22.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserAppService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\Core-App\\UserAggrigate\\AppService\\IUserAppService.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\Core-App\\UserAggrigate\\AppService\\IUserAppService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\Core-App\\UserAggrigate\\AppService\\IUserAppService.cs",
+              "RelativeToolTip": "App.Domain.Core\\Core-App\\UserAggrigate\\AppService\\IUserAppService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:43:19.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\Core-App\\UserAggrigate\\Data\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\Core-App\\UserAggrigate\\Data\\Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\Core-App\\UserAggrigate\\Data\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "App.Domain.Core\\Core-App\\UserAggrigate\\Data\\Repository\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:43:03.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:27:12.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250102181102_init2.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Db.SqlServer.Ef\\Migrations\\20250102181102_init2.cs",
+              "RelativeDocumentMoniker": "App.Infra.Data.Db.SqlServer.Ef\\Migrations\\20250102181102_init2.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Db.SqlServer.Ef\\Migrations\\20250102181102_init2.cs",
+              "RelativeToolTip": "App.Infra.Data.Db.SqlServer.Ef\\Migrations\\20250102181102_init2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:11:06.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserConfig.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Db.SqlServer.Ef\\UserConfig.cs",
+              "RelativeDocumentMoniker": "App.Infra.Data.Db.SqlServer.Ef\\UserConfig.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Db.SqlServer.Ef\\UserConfig.cs",
+              "RelativeToolTip": "App.Infra.Data.Db.SqlServer.Ef\\UserConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:02:45.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Db.SqlServer.Ef\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "App.Infra.Data.Db.SqlServer.Ef\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Db.SqlServer.Ef\\AppDbContext.cs",
+              "RelativeToolTip": "App.Infra.Data.Db.SqlServer.Ef\\AppDbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:41:33.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Program.cs",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Program.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Program.cs",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T13:38:57.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ChooseAction.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\Account\\ChooseAction.cshtml",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Views\\Account\\ChooseAction.cshtml",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\Account\\ChooseAction.cshtml",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Views\\Account\\ChooseAction.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T13:37:22.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T13:36:56.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-02T13:14:32.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T13:13:42.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T13:10:37.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Transfer.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\User\\Transfer.cshtml",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Views\\User\\Transfer.cshtml",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\User\\Transfer.cshtml",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Views\\User\\Transfer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T13:08:02.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Views\\User\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T13:05:54.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Views\\User\\Login.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAkwDUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T13:01:35.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\Card\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Views\\Card\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\Card\\ChangePassword.cshtml",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Views\\Card\\ChangePassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T12:51:33.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Transaction.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\Card\\Transaction.cshtml",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Views\\Card\\Transaction.cshtml",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\Card\\Transaction.cshtml",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Views\\Card\\Transaction.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T12:47:48.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\Card\\Index.cshtml",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Views\\Card\\Index.cshtml",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Views\\Card\\Index.cshtml",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Views\\Card\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T12:45:46.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\Core-App\\CardAggrigate\\Entities\\Card.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\Core-App\\CardAggrigate\\Entities\\Card.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\Core-App\\CardAggrigate\\Entities\\Card.cs",
+              "RelativeToolTip": "App.Domain.Core\\Core-App\\CardAggrigate\\Entities\\Card.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:42:31.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\Core-App\\TransactionAggrigate\\Entities\\Transaction.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\Core-App\\TransactionAggrigate\\Entities\\Transaction.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\Core-App\\TransactionAggrigate\\Entities\\Transaction.cs",
+              "RelativeToolTip": "App.Domain.Core\\Core-App\\TransactionAggrigate\\Entities\\Transaction.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:39:04.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CardService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Service\\Core-App\\Card\\CardService.cs",
+              "RelativeDocumentMoniker": "App.Domain.Service\\Core-App\\Card\\CardService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Service\\Core-App\\Card\\CardService.cs",
+              "RelativeToolTip": "App.Domain.Service\\Core-App\\Card\\CardService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:34:45.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TransactionAppService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.AppService\\Core-App\\Transaction\\TransactionAppService.cs",
+              "RelativeDocumentMoniker": "App.Domain.AppService\\Core-App\\Transaction\\TransactionAppService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.AppService\\Core-App\\Transaction\\TransactionAppService.cs",
+              "RelativeToolTip": "App.Domain.AppService\\Core-App\\Transaction\\TransactionAppService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:34:12.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CardAppService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.AppService\\Core-App\\Card\\CardAppService.cs",
+              "RelativeDocumentMoniker": "App.Domain.AppService\\Core-App\\Card\\CardAppService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.AppService\\Core-App\\Card\\CardAppService.cs",
+              "RelativeToolTip": "App.Domain.AppService\\Core-App\\Card\\CardAppService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:34:02.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ICardAppService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\Core-App\\CardAggrigate\\AppService\\ICardAppService.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\Core-App\\CardAggrigate\\AppService\\ICardAppService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\Core-App\\CardAggrigate\\AppService\\ICardAppService.cs",
+              "RelativeToolTip": "App.Domain.Core\\Core-App\\CardAggrigate\\AppService\\ICardAppService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:29:47.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserAppService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.AppService\\Core-App\\User\\UserAppService.cs",
+              "RelativeDocumentMoniker": "App.Domain.AppService\\Core-App\\User\\UserAppService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.AppService\\Core-App\\User\\UserAppService.cs",
+              "RelativeToolTip": "App.Domain.AppService\\Core-App\\User\\UserAppService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:21:57.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\Core-App\\UserAggrigate\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\Core-App\\UserAggrigate\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\Core-App\\UserAggrigate\\Services\\IUserService.cs",
+              "RelativeToolTip": "App.Domain.Core\\Core-App\\UserAggrigate\\Services\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:18:26.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Controllers\\UserController.cs",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAMwBsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:14:59.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OnlineUserModel.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Models\\OnlineUserModel.cs",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Models\\OnlineUserModel.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Models\\OnlineUserModel.cs",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Models\\OnlineUserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:09:42.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CardController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Controllers\\CardController.cs",
+              "RelativeDocumentMoniker": "App.EndPoints.MVC.Core-App\\Controllers\\CardController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\Controllers\\CardController.cs",
+              "RelativeToolTip": "App.EndPoints.MVC.Core-App\\Controllers\\CardController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T11:58:28.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\Core-App\\UserAggrigate\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\Core-App\\UserAggrigate\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\Core-App\\UserAggrigate\\Entities\\User.cs",
+              "RelativeToolTip": "App.Domain.Core\\Core-App\\UserAggrigate\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T11:12:38.996Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

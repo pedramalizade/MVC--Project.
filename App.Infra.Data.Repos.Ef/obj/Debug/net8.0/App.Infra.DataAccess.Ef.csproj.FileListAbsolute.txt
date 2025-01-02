@@ -1,0 +1,17 @@
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\bin\Debug\net8.0\App.Infra.DataAccess.Ef.deps.json
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\bin\Debug\net8.0\App.Infra.DataAccess.Ef.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\bin\Debug\net8.0\App.Infra.DataAccess.Ef.pdb
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\bin\Debug\net8.0\App.Domain.Core.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\bin\Debug\net8.0\App.Infra.DataBase.SqlServer.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\bin\Debug\net8.0\App.Domain.Core.pdb
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\bin\Debug\net8.0\App.Infra.DataBase.SqlServer.pdb
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\obj\Debug\net8.0\App.Infra.DataAccess.Ef.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\obj\Debug\net8.0\App.Infra.DataAccess.Ef.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\obj\Debug\net8.0\App.Infra.DataAccess.Ef.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\obj\Debug\net8.0\App.Infra.DataAccess.Ef.AssemblyInfo.cs
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\obj\Debug\net8.0\App.Infra.DataAccess.Ef.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\obj\Debug\net8.0\App.Infr.6606551B.Up2Date
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\obj\Debug\net8.0\App.Infra.DataAccess.Ef.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\obj\Debug\net8.0\refint\App.Infra.DataAccess.Ef.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\obj\Debug\net8.0\App.Infra.DataAccess.Ef.pdb
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\obj\Debug\net8.0\ref\App.Infra.DataAccess.Ef.dll

@@ -1,0 +1,447 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.Console.Croe\\App.EndPoints.Console.Croe.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.AppService\\App.Domain.AppService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.AppService\\App.Domain.AppService.csproj",
+        "projectName": "App.Domain.AppService",
+        "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.AppService\\App.Domain.AppService.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.AppService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\App.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\App.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\App.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\App.Domain.Core.csproj",
+        "projectName": "App.Domain.Core",
+        "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\App.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Service\\App.Domain.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Service\\App.Domain.Service.csproj",
+        "projectName": "App.Domain.Service",
+        "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Service\\App.Domain.Service.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.AppService\\App.Domain.AppService.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.AppService\\App.Domain.AppService.csproj"
+              },
+              "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\App.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\App.Domain.Core.csproj"
+              },
+              "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Repos.Ef\\App.Infra.DataAccess.Ef.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Repos.Ef\\App.Infra.DataAccess.Ef.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.Console.Croe\\App.EndPoints.Console.Croe.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.Console.Croe\\App.EndPoints.Console.Croe.csproj",
+        "projectName": "App.EndPoints.Console.Croe",
+        "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.Console.Croe\\App.EndPoints.Console.Croe.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.Console.Croe\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.AppService\\App.Domain.AppService.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.AppService\\App.Domain.AppService.csproj"
+              },
+              "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\App.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\App.Domain.Core.csproj"
+              },
+              "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Service\\App.Domain.Service.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Service\\App.Domain.Service.csproj"
+              },
+              "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Db.SqlServer.Ef\\App.Infra.DataBase.SqlServer.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Db.SqlServer.Ef\\App.Infra.DataBase.SqlServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Db.SqlServer.Ef\\App.Infra.DataBase.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Db.SqlServer.Ef\\App.Infra.DataBase.SqlServer.csproj",
+        "projectName": "App.Infra.DataBase.SqlServer",
+        "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Db.SqlServer.Ef\\App.Infra.DataBase.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Db.SqlServer.Ef\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\App.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\App.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Repos.Ef\\App.Infra.DataAccess.Ef.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Repos.Ef\\App.Infra.DataAccess.Ef.csproj",
+        "projectName": "App.Infra.DataAccess.Ef",
+        "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Repos.Ef\\App.Infra.DataAccess.Ef.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Repos.Ef\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\App.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\Core\\App.Domain.Core\\App.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

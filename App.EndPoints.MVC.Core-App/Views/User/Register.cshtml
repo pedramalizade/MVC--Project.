@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<h2> Register </h2>
+<form asp-action="Register" method="post">
+    <div>
+        <label> UserName </label>
+        <input type="text" name="Username" class="form-control" required />
+    </div>
+    <div>
+        <label> Password </label>
+        <input type="password" name="password" class="form-control" required />
+    </div>
+    <div>
+        <label> Name </label>
+        <input type="name" name="name" class="form-control" required />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary"> Register </button>
+</form>
+
+@ViewData["Error"]

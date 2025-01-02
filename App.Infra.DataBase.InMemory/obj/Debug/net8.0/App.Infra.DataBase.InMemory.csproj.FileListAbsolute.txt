@@ -1,0 +1,15 @@
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\bin\Debug\net8.0\App.Infra.DataBase.InMemory.deps.json
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\bin\Debug\net8.0\App.Infra.DataBase.InMemory.dll
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\bin\Debug\net8.0\App.Infra.DataBase.InMemory.pdb
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\bin\Debug\net8.0\App.Domain.Core.dll
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\bin\Debug\net8.0\App.Domain.Core.pdb
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\obj\Debug\net8.0\App.Infra.DataBase.InMemory.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\obj\Debug\net8.0\App.Infra.DataBase.InMemory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\obj\Debug\net8.0\App.Infra.DataBase.InMemory.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\obj\Debug\net8.0\App.Infra.DataBase.InMemory.AssemblyInfo.cs
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\obj\Debug\net8.0\App.Infra.DataBase.InMemory.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\obj\Debug\net8.0\App.Infr.F937F226.Up2Date
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\obj\Debug\net8.0\App.Infra.DataBase.InMemory.dll
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\obj\Debug\net8.0\refint\App.Infra.DataBase.InMemory.dll
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\obj\Debug\net8.0\App.Infra.DataBase.InMemory.pdb
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\obj\Debug\net8.0\ref\App.Infra.DataBase.InMemory.dll

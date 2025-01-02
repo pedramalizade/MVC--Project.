@@ -1,0 +1,17 @@
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\bin\Debug\net8.0\App.Infra.DataAccess.Dapper.deps.json
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\bin\Debug\net8.0\App.Infra.DataAccess.Dapper.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\bin\Debug\net8.0\App.Infra.DataAccess.Dapper.pdb
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\bin\Debug\net8.0\App.Domain.Core.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\bin\Debug\net8.0\App.Infra.DataBase.SqlServer.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\bin\Debug\net8.0\App.Domain.Core.pdb
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\bin\Debug\net8.0\App.Infra.DataBase.SqlServer.pdb
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\obj\Debug\net8.0\App.Infra.DataAccess.Dapper.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\obj\Debug\net8.0\App.Infra.DataAccess.Dapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\obj\Debug\net8.0\App.Infra.DataAccess.Dapper.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\obj\Debug\net8.0\App.Infra.DataAccess.Dapper.AssemblyInfo.cs
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\obj\Debug\net8.0\App.Infra.DataAccess.Dapper.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\obj\Debug\net8.0\App.Infr.49D8EA5F.Up2Date
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\obj\Debug\net8.0\App.Infra.DataAccess.Dapper.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\obj\Debug\net8.0\refint\App.Infra.DataAccess.Dapper.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\obj\Debug\net8.0\App.Infra.DataAccess.Dapper.pdb
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\obj\Debug\net8.0\ref\App.Infra.DataAccess.Dapper.dll
