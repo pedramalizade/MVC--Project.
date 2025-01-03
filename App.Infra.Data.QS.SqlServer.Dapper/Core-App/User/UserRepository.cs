@@ -1,4 +1,5 @@
-﻿using App.Domain.Core.Core_App.UserAggrigate.Data.Repository;
+﻿using App.Domain.Core.Core_App.CardAggrigate.Entities;
+using App.Domain.Core.Core_App.UserAggrigate.Data.Repository;
 using App.Infra.DataBase.SqlServer;
 using System;
 using System.Collections.Generic;
@@ -30,9 +31,14 @@ namespace App.Infra.DataAccess.Dapper.Core_App.User
             return true;
         }
 
-        public List<Domain.Core.Core_App.UserAggrigate.Entities.User> GetAll()
+        public List<Domain.Core.Core_App.UserAggrigate.Entities.User> GetAllUser()
         {
             return _appDbContext.Users.ToList();
+        }
+
+        public List<Card> GetAllCard()
+        {
+            return _appDbContext.Cards.ToList();
         }
 
         public Domain.Core.Core_App.UserAggrigate.Entities.User GetById(int userId)

@@ -1,4 +1,5 @@
-﻿using App.Domain.Core.Core_App.UserAggrigate.Data.Repository;
+﻿using App.Domain.Core.Core_App.CardAggrigate.Entities;
+using App.Domain.Core.Core_App.UserAggrigate.Data.Repository;
 using App.Domain.Core.Core_App.UserAggrigate.Entities;
 using App.Infra.DataBase.SqlServer;
 using System;
@@ -32,9 +33,14 @@ namespace App.Infra.Data.Repos.Ef.Core_App.UserAggrigate
             return true;
         }
 
-        public List<User> GetAll()
+        public List<User> GetAllUser()
         {
             return _appDbContext.Users.ToList();
+        }
+
+        public List<Card> GetAllCard()
+        {
+            return _appDbContext.Cards.ToList();
         }
 
         public User GetById(int userId)

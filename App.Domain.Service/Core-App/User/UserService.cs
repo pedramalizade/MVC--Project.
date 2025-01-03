@@ -57,8 +57,13 @@ namespace App.Domain.Service.Core_App.UserAggrigate
 
         public List<Card> GetAll()
         {
-            var x = _userRepository.GetAll();
+            var x = _userRepository.GetAllCard();
             return x;
+        }
+
+        public List<User> GetAllUser()
+        {
+            return _userRepository.GetAllUser();
         }
 
         public bool Register(User user)

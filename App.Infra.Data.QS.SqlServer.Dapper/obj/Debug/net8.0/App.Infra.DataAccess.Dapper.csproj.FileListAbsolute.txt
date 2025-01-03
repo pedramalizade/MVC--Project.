@@ -15,3 +15,4 @@ C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\obj\Debug\net
 C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\obj\Debug\net8.0\refint\App.Infra.DataAccess.Dapper.dll
 C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\obj\Debug\net8.0\App.Infra.DataAccess.Dapper.pdb
 C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\obj\Debug\net8.0\ref\App.Infra.DataAccess.Dapper.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.QS.SqlServer.Dapper\obj\Debug\net8.0\App.Infra.DataAccess.Dapper.sourcelink.json

@@ -21,7 +21,7 @@ namespace App.EndPoints.MVC.Core_App.Controllers
         }
         public IActionResult Index()
         {
-            var users = _userAppService.GetAll();
+            var users = _userAppService.GetAllUser();
             return View(users);
         }
         [HttpGet]
@@ -57,9 +57,9 @@ namespace App.EndPoints.MVC.Core_App.Controllers
             return View(OnlineUserModel.user);
         }
         [HttpPost]
-        public IActionResult Transfer(string sourcecard, string destcard, float amount)
+        public IActionResult Transfer(string sourceCardNumber, string destinationCardNumber, float amount)
         {
-            _transactionAppService.Transfer(sourcecard, destcard, amount);
+            _transactionAppService.Transfer(sourceCardNumber, destinationCardNumber, amount);
             return RedirectToAction("Transaction", "Card");
         }
     }

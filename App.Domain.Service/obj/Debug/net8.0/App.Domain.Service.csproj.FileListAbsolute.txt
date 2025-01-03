@@ -21,3 +21,4 @@ C:\Users\asus\source\repos\Core\App.Domain.Service\obj\Debug\net8.0\App.Domain.S
 C:\Users\asus\source\repos\Core\App.Domain.Service\obj\Debug\net8.0\refint\App.Domain.Service.dll
 C:\Users\asus\source\repos\Core\App.Domain.Service\obj\Debug\net8.0\App.Domain.Service.pdb
 C:\Users\asus\source\repos\Core\App.Domain.Service\obj\Debug\net8.0\ref\App.Domain.Service.dll
+C:\Users\asus\source\repos\Core\App.Domain.Service\obj\Debug\net8.0\App.Domain.Service.sourcelink.json

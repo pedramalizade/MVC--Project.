@@ -15,3 +15,4 @@ C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\obj\Debug\net8.0\App.Inf
 C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\obj\Debug\net8.0\refint\App.Infra.DataAccess.Ef.dll
 C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\obj\Debug\net8.0\App.Infra.DataAccess.Ef.pdb
 C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\obj\Debug\net8.0\ref\App.Infra.DataAccess.Ef.dll
+C:\Users\asus\source\repos\Core\App.Infra.Data.Repos.Ef\obj\Debug\net8.0\App.Infra.DataAccess.Ef.sourcelink.json

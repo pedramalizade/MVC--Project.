@@ -37,6 +37,11 @@ namespace App.Domain.AppService.Core_App.UserAggrigate
             return _userService.GetAll();
         }
 
+        public List<User> GetAllUser()
+        {
+            return _userService.GetAllUser();
+        }
+
         public User Login(string username, string password)
         {
             return _userService.Login(username, password);

@@ -165,3 +165,4 @@ C:\Users\asus\source\repos\Core\App.EndPoints.Console.Croe\obj\Debug\net8.0\refi
 C:\Users\asus\source\repos\Core\App.EndPoints.Console.Croe\obj\Debug\net8.0\App.EndPoints.Console.Core.pdb
 C:\Users\asus\source\repos\Core\App.EndPoints.Console.Croe\obj\Debug\net8.0\App.EndPoints.Console.Core.genruntimeconfig.cache
 C:\Users\asus\source\repos\Core\App.EndPoints.Console.Croe\obj\Debug\net8.0\ref\App.EndPoints.Console.Core.dll
+C:\Users\asus\source\repos\Core\App.EndPoints.Console.Croe\obj\Debug\net8.0\App.EndPoints.Console.Core.sourcelink.json

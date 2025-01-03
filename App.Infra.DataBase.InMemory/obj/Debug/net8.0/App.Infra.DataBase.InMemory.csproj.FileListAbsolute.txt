@@ -13,3 +13,4 @@ C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\obj\Debug\net8.0\App
 C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\obj\Debug\net8.0\refint\App.Infra.DataBase.InMemory.dll
 C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\obj\Debug\net8.0\App.Infra.DataBase.InMemory.pdb
 C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\obj\Debug\net8.0\ref\App.Infra.DataBase.InMemory.dll
+C:\Users\asus\source\repos\Core\App.Infra.DataBase.InMemory\obj\Debug\net8.0\App.Infra.DataBase.InMemory.sourcelink.json

@@ -25,3 +25,4 @@ C:\Users\asus\source\repos\Core\App.Domain.AppService\obj\Debug\net8.0\refint\Ap
 C:\Users\asus\source\repos\Core\App.Domain.AppService\obj\Debug\net8.0\App.Domain.AppService.pdb
 C:\Users\asus\source\repos\Core\App.Domain.AppService\obj\Debug\net8.0\App.Domain.AppService.genruntimeconfig.cache
 C:\Users\asus\source\repos\Core\App.Domain.AppService\obj\Debug\net8.0\ref\App.Domain.AppService.dll
+C:\Users\asus\source\repos\Core\App.Domain.AppService\obj\Debug\net8.0\App.Domain.AppService.sourcelink.json

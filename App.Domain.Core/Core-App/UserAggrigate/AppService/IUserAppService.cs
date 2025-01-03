@@ -17,6 +17,6 @@ namespace App.Domain.Core.Core_App.UserAggrigate.AppService
         public void RemoveCard(string cardNumber);
         public int GenerateRandomeCode();
         public List<Card> GetAll();
-
+        public List<User> GetAllUser();
     }
 }

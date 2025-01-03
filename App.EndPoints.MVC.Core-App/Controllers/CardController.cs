@@ -25,6 +25,7 @@ namespace App.EndPoints.MVC.Core_App.Controllers
             var users = _userAppService.GetAll();
             return View(users);
         }
+        [HttpPost]
         public IActionResult Transaction(string cardnumber)
         {
             return View(_transactionAppService.GetTransactions(cardnumber));
@@ -37,7 +38,7 @@ namespace App.EndPoints.MVC.Core_App.Controllers
         public IActionResult ChangePassword(string cardnumber, string password, string newPassword)
         {
             var res = _cardAppService.ChangePassword(cardnumber, password, newPassword);
-            return View("Home");
+            return View(res);
         }
     }
 }

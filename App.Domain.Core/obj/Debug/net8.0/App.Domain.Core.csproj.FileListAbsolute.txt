@@ -12,3 +12,4 @@ C:\Users\asus\source\repos\Core\App.Domain.Core\obj\Debug\net8.0\refint\App.Doma
 C:\Users\asus\source\repos\Core\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.pdb
 C:\Users\asus\source\repos\Core\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.genruntimeconfig.cache
 C:\Users\asus\source\repos\Core\App.Domain.Core\obj\Debug\net8.0\ref\App.Domain.Core.dll
+C:\Users\asus\source\repos\Core\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.sourcelink.json
