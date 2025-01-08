@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using App.Domain.Core.Core_App.CardAggrigate.Repository;
+using App.EndPoints.MVC.Core_App.Models;
 
 namespace App.Domain.Service.Core_App.CardAggrigate
 {
@@ -23,10 +24,17 @@ namespace App.Domain.Service.Core_App.CardAggrigate
             _cardRepository.UpdateCard(card);
         }
 
-        public bool ChangePassword(string cardNumber, string password, string newPassword)
+        public Result ChangePassword(string cardNumber, string password, string newPassword)
         {
-            var user = _cardRepository.ChangePassword(cardNumber, password, newPassword);
-            return true;
+            var isvalid = _cardRepository.DoesCardExists(cardNumber, password);
+            if (isvalid.IsDone)
+            {
+                var card = _cardRepository.GetCardByNumber(cardNumber);
+                card.Password = newPassword;
+                _cardRepository.Update(card);
+                return new Result(true, "Password changed successfully.");
+            }
+            return new Result(false, "The entered password is wrong.Please try again.");
         }
 
         public string CheckCard(string cardNumber, string password)

@@ -14,6 +14,5 @@ namespace App.Infra.DataBase.InMemory
         public static List<User> Users { get; set; }
         public static List<Card> Cards { get; set; }
         public static List<Transaction> Transactions { get; set; }
-        public static User OnlineUser { get; set; }
     }
 }

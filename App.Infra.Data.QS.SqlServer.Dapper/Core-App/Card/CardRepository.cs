@@ -1,5 +1,6 @@
 ﻿using App.Domain.Core.Core_App.CardAggrigate.Entities;
 using App.Domain.Core.Core_App.CardAggrigate.Repository;
+using App.EndPoints.MVC.Core_App.Models;
 using App.Infra.DataBase.SqlServer;
 using System;
 using System.Collections.Generic;
@@ -44,6 +45,22 @@ namespace App.Infra.DataAccess.Dapper.Core_App.CardAggrigate
         public Card GetCardByNumber(string cardNumber)
         {
             return _appDbContext.Cards.FirstOrDefault(c => c.CardNumber == cardNumber);
+        }
+
+        public Result DoesCardExists(string cardnumber, string password)
+        {
+            var doesexists = _appDbContext.Cards.Any(c => c.CardNumber == cardnumber && c.Password == password);
+            if (doesexists)
+            {
+                return new Result(doesexists);
+            }
+            return new Result(false, "The card does not exists.");
+        }
+
+        public void Update(Card card)
+        {
+            _appDbContext.Update(card);
+            _appDbContext.SaveChanges();
         }
     }
 }

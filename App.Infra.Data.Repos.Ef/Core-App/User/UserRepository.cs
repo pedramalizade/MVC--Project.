@@ -66,5 +66,9 @@ namespace App.Infra.Data.Repos.Ef.Core_App.UserAggrigate
                 }
             }
         }
+        public List<Card>? GetCards(int id)
+        {
+            return _appDbContext.Cards.Where(c => c.UserId == id).ToList();
+        }
     }
 }

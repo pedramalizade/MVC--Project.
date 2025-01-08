@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ya+kGUiuTxmh6Bx+W7DpvfejQSzvaqpS8G0ql87V/SkKU0IdH4WXzDoxGwpkS8QoxgR1E6rYUiejqi3duve4rA==",
+  "dgSpecHash": "UqWYKxt0J6s=",
   "success": true,
   "projectFilePath": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.Console.Croe\\App.EndPoints.Console.Core.csproj",
   "expectedPackageFiles": [
@@ -84,5 +84,12 @@
     "C:\\Users\\asus\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

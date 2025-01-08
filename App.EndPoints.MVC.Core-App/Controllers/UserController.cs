@@ -7,6 +7,7 @@ using App.Domain.Core.Core_App.UserAggrigate.AppService;
 using App.Domain.Core.Core_App.UserAggrigate.Entities;
 using App.EndPoints.MVC.Core_App.Models;
 using Microsoft.AspNetCore.Mvc;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace App.EndPoints.MVC.Core_App.Controllers
 {
@@ -14,17 +15,18 @@ namespace App.EndPoints.MVC.Core_App.Controllers
     {
         private readonly IUserAppService _userAppService;
         private readonly ITransactionAppService _transactionAppService;
-        public UserController(IUserAppService userAppService, ITransactionAppService transactionAppService)
+        private readonly ICardAppService _cardAppService;
+        public UserController(IUserAppService userAppService, ITransactionAppService transactionAppService, ICardAppService cardAppService)
         {
             _userAppService = userAppService;
             _transactionAppService = transactionAppService;
+            _cardAppService = cardAppService;   
         }
         public IActionResult Index()
         {
             var users = _userAppService.GetAllUser();
             return View(users);
         }
-        [HttpGet]
         public IActionResult Register()
         {
             return View();
@@ -57,10 +59,23 @@ namespace App.EndPoints.MVC.Core_App.Controllers
             return View(OnlineUserModel.user);
         }
         [HttpPost]
-        public IActionResult Transfer(string sourceCardNumber, string destinationCardNumber, float amount)
+        public IActionResult Transfer(string sourceCardNumber, string destinationCardNumber, float amount, int code)
         {
-            _transactionAppService.Transfer(sourceCardNumber, destinationCardNumber, amount);
-            return RedirectToAction("Transaction", "Card");
+            var isvalid = _cardAppService.IsCodeValid(code);
+
+            if (!isvalid.IsDone)
+            {
+                TempData["CodeErrorMessage"] = isvalid.Message;
+                return RedirectToAction("Transfer");
+            }
+            var isdone = _transactionAppService.Transfer(sourceCardNumber, destinationCardNumber, amount);
+            return RedirectToAction("Transaction", "Card", new { cardnumber = sourceCardNumber });
+        }
+        public IActionResult RandomCode()
+        {
+            _userAppService.GenerateRandomeCode();
+            TempData["RandomCodeMessage"] = $"!Note: The random code is only valid for 50 secondes. ";
+            return RedirectToAction("Transaction");
         }
     }
 }

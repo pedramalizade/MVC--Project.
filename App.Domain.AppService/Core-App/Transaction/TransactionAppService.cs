@@ -5,6 +5,8 @@ using App.Domain.Core.Core_App.TransactionAggrigate.AppService;
 using App.Domain.Core.Core_App.TransactionAggrigate.Data.Repository;
 using App.Domain.Core.Core_App.TransactionAggrigate.Entities;
 using App.Domain.Service.Core_App.CardAggrigate;
+using App.Domain.Service.Core_App.TransactionAggrigate;
+using App.EndPoints.MVC.Core_App.Models;
 using App.Infra.Data.Repos.Ef.Core_App.TransactionAggrigate;
 using System;
 using System.Collections.Generic;
@@ -23,32 +25,33 @@ namespace App.Domain.AppService.Core_App.TransactionAggrigate
             _cardService = new CardService();
             _transactionRepository = new TransactionRepository();
         }
+
+        public List<Transaction> CardTransactionList(string cardNumber)
+        {
+            return _transactionRepository.GetAllTransaction(cardNumber);
+        }
+
         public List<Transaction> GetTransactions(string cardNumber)
         {
             return _transactionRepository.GetAllTransaction(cardNumber);
         }
 
-        public bool Transfer(string sourceCardNumber, string destinationCardNumber, float amount)
+        public Result Transfer(string sourceCardNumber, string destinationCardNumber, float amount)
         {
             var transactionamount = _transactionRepository.TransactionAmountInDay(sourceCardNumber);
             if (transactionamount >= 250)
             {
-                Console.WriteLine(" Transfer limit has been exceeded.");
-                return false;
+                return new Result(false, " Transfer limit has been exceeded.");
             }
             if (transactionamount + amount > 250)
             {
-                Console.WriteLine($"The Transfer limit will be  exceeded.Entered amonut must be less than {transactionamount - 250}");
-                Console.ReadKey();
-                return false;
+                return new Result(false, $"The Transfer limit will be  exceeded.Entered amonut must be less than {1250 - transactionamount}");
 
             }
 
             if (amount < 0)
             {
-                Console.WriteLine("The transfer amount must be greater than zero.");
-                Console.ReadKey();
-                return false;
+                return new Result(false, "The transfer amount must be greater than zero.");
 
             }
 
@@ -60,14 +63,12 @@ namespace App.Domain.AppService.Core_App.TransactionAggrigate
 
             if (sourceCard == null || destinationCardNumber == null)
             {
-                Console.WriteLine("Surce or destination card not found.");
-                return false;
+                return new Result(false, "Surce or destination card not found.");
             }
 
             if (!_cardService.CheckCardBalance(sourceCard, amount))
             {
-                Console.WriteLine("Insifficient balance on the source card.");
-                return false;
+                return new Result(false, "Insifficient balance on the source card.");
             }
 
             _cardService.DeductBalance(sourceCard, amount);
@@ -83,7 +84,7 @@ namespace App.Domain.AppService.Core_App.TransactionAggrigate
             };
 
             _transactionRepository.AddTransaction(transaction);
-            return true;
+            return new Result(true, "Your Transfer Added.");
         }
     }
 }

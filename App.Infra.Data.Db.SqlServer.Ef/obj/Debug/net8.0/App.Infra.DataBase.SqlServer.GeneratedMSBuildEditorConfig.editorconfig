@@ -19,3 +19,5 @@ build_property.RootNamespace = App.Infra.DataBase.SqlServer
 build_property.ProjectDir = C:\Users\asus\source\repos\Core\App.Infra.Data.Db.SqlServer.Ef\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 

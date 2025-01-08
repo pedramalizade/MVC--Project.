@@ -182,3 +182,7 @@ C:\Users\asus\source\repos\Core\App.EndPoints.MVC.Core-App\bin\Debug\net8.0\tr\M
 C:\Users\asus\source\repos\Core\App.EndPoints.MVC.Core-App\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\asus\source\repos\Core\App.EndPoints.MVC.Core-App\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\asus\source\repos\Core\App.EndPoints.MVC.Core-App\obj\Debug\net8.0\App.EndPoints.MVC.Core-App.sourcelink.json
+C:\Users\asus\source\repos\Core\App.EndPoints.MVC.Core-App\bin\Debug\net8.0\App.EndPoints.MVC.Core-App.staticwebassets.endpoints.json
+C:\Users\asus\source\repos\Core\App.EndPoints.MVC.Core-App\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\asus\source\repos\Core\App.EndPoints.MVC.Core-App\obj\Debug\net8.0\staticwebassets\msbuild.App.EndPoints.MVC.Core-App.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\asus\source\repos\Core\App.EndPoints.MVC.Core-App\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

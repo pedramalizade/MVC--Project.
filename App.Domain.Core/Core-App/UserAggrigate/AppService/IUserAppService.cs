@@ -18,5 +18,6 @@ namespace App.Domain.Core.Core_App.UserAggrigate.AppService
         public int GenerateRandomeCode();
         public List<Card> GetAll();
         public List<User> GetAllUser();
+        public List<Card> GetUserCards(int id);
     }
 }

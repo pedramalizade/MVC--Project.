@@ -1,5 +1,5 @@
 ﻿@using App.Domain.Core.Core_App.CardAggrigate.Entities
-@*
+﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
@@ -26,7 +26,7 @@
                     <td>@card.Balance</td>
                     <td>@card.IsActive</td>
                     <td>
-                        <button class="btn btn-success" type="button" asp-action="Transaction" asp-route-cardnumber="@card.CardNumber">Card Transactions</button>
+                        <a class="btn btn-success" type="button" asp-action="Transaction" asp-route-cardnumber="@card.CardNumber">Card Transactions</a>
                     </td>
                 </tr>
             }

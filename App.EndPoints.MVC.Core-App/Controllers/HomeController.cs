@@ -1,3 +1,4 @@
+using App.Domain.Core.Core_App.UserAggrigate.Entities;
 using App.EndPoints.MVC.Core_App.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -15,7 +16,7 @@ namespace App.EndPoints.MVC.Core_App.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(OnlineUser.User);
         }
 
         public IActionResult Privacy()

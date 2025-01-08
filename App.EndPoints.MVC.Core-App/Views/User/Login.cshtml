@@ -1,41 +1,4 @@
-﻿@* @{
-}
-
-<div class="container px-5 my-5">
-    <form asp-action="Login" method="post">
-        <div class="form-floating mb-3">
-            <input class="form-control" id="userName" type="text" placeholder="UserName" required />
-            <label for="userName">UserName</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input class="form-control" id="password" type="text" placeholder="Password" required />
-            <label for="password">Password</label>
-        </div>
-        <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Login</button>
-    </form>
-</div>
-<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> *@
-
-@* @{
-    Layout = "_Layout";
-}
-
-<div>
-    <h2>Login</h2>
-    <form asp-action="Login" method="post">
-        <div class="form-group">
-            <label for="username">UserName</label>
-            <input type="text" id="username" name="username" placeholder="Enter your UserName" required>
-        </div>
-        <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" placeholder="Enter your password" required>
-        </div>
-        <button type="submit" class="btn btn-primary">Login</button>
-    </form>
-</div> *@
-
-@{
+﻿@{
     Layout = "_Layout";
 }
 

@@ -1046,7 +1046,10 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "App.Domain.Core.dll": {}
+          "App.Domain.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

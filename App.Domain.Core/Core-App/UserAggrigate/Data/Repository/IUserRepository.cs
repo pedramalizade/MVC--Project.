@@ -17,5 +17,6 @@ namespace App.Domain.Core.Core_App.UserAggrigate.Data.Repository
         public List<User> GetAllUser();
         public void ShowCardBalance(int userId);
         public List<Card> GetAllCard();
+        public List<Card>? GetCards(int id);
     }
 }

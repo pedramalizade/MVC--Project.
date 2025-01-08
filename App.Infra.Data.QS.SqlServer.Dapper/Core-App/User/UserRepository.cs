@@ -64,5 +64,10 @@ namespace App.Infra.DataAccess.Dapper.Core_App.User
                 }
             }
         }
+
+        public List<Card>? GetCards(int id)
+        {
+            return _appDbContext.Cards.Where(c => c.UserId == id).ToList();
+        }
     }
 }

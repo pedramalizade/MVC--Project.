@@ -1,7 +1,6 @@
 ﻿using App.Domain.Core.Core_App.UserAggrigate.Data.Repository;
 using App.Domain.Core.Core_App.UserAggrigate.Entities;
 using App.Domain.Core.Core_App.UserAggrigate.Services;
-using App.Infra.DataBase.InMemory;
 using App.Infra.DataBase.SqlServer;
 using App.Domain.Core.Core_App.CardAggrigate.Services;
 using Newtonsoft.Json;
@@ -20,7 +19,7 @@ namespace App.Domain.Service.Core_App.UserAggrigate
     {
         private readonly IUserRepository _userRepository;
         private readonly AppDbContext _appDbContext;
-        private string path = @"C:\Users\asus\source\repos\Quiz-Maktab\Quiz-Maktab\Code.txt";
+        private string path = @"C:\Users\asus\source\repos\Core\Code.txt";
 
 
         public UserService()
@@ -66,6 +65,11 @@ namespace App.Domain.Service.Core_App.UserAggrigate
             return _userRepository.GetAllUser();
         }
 
+        public List<Card>? GetUserCards(int id)
+        {
+            return _userRepository.GetCards(id);
+        }
+
         public bool Register(User user)
         {
             var username = _appDbContext.Users.FirstOrDefault(t => t.Username == user.Username && t.Password == user.Password);
@@ -74,7 +78,7 @@ namespace App.Domain.Service.Core_App.UserAggrigate
                 return false;
             }
             _appDbContext.Users.Add(user);
-            InMemoryDb.OnlineUser = user;
+            OnlineUser.User = user;
             _appDbContext.SaveChanges();
             return true;
         }
@@ -108,7 +112,7 @@ namespace App.Domain.Service.Core_App.UserAggrigate
             {
                 if (user.Password == password)
                 {
-                    InMemoryDb.OnlineUser = user;
+                    OnlineUser.User = user;
                     return user;
 
                 }

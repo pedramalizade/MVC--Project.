@@ -1,6 +1,7 @@
 ﻿using App.Domain.Core.Core_App.TransactionAggrigate.Data.Repository;
 using App.Domain.Core.Core_App.TransactionAggrigate.Entities;
 using App.Infra.DataBase.SqlServer;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +25,7 @@ namespace App.Infra.Data.Repos.Ef.Core_App.TransactionAggrigate
 
         public List<Transaction> GetAllTransaction(string cardNumber)
         {
-            return _appDbContext.Transactions.Where(t => t.SourceCardNumber == cardNumber || t.DestinationCardNumber == cardNumber).ToList();
+            return _appDbContext.Transactions.AsNoTracking().Where(t => t.SourceCardNumber == cardNumber || t.DestinationCardNumber == cardNumber).ToList();
         }
 
         public float TransactionAmountInDay(string cardnumber)

@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\App.EndPoints.MVC.Core-App.bundle.scp.css",
-      "PackagePath": "staticwebassets\\App.EndPoints.MVC.Core-App.bundle.scp.css"
+      "PackagePath": "staticwebassets\\App.EndPoints.MVC.Core-App.vhx5u2aqj6.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\wwwroot\\css\\site.css",
@@ -243,6 +243,10 @@
     {
       "Id": "C:\\Users\\asus\\source\\repos\\Core\\App.EndPoints.MVC.Core-App\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.App.EndPoints.MVC.Core-App.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.App.EndPoints.MVC.Core-App.Microsoft.AspNetCore.StaticWebAssets.props",

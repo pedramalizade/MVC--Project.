@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App.EndPoints.MVC.Core_App.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,8 +16,10 @@ namespace App.Domain.Core.Core_App.CardAggrigate.AppService
         public bool IsCardValid(string cardNumber);
         public void DeductBalance(Entities.Card card, float amount);
         public void AddBalance(Entities.Card card, float amount);
-        public bool ChangePassword(string cardNumber, string password, string newPassword);
+        public Result ChangePassword(string cardNumber, string password, string newPassword);
         public bool ReduceAmount(double money, string cardNumber, string distanceCardNumber);
         public bool GetHolderNameCard(string cardNumber);
+        public Result IsCodeValid(int code);
+
     }
 }

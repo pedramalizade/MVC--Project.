@@ -11,6 +11,6 @@ namespace App.Domain.Core.Core_App.TransactionAggrigate.Data.Repository
     {
         public void AddTransaction(Transaction transaction);
         public List<Transaction> GetAllTransaction(string cardNumber);
-        public float TransactionAmountInDay(string cardnumber);
+        public float TransactionAmountInDay(string cardNumber);
     }
 }

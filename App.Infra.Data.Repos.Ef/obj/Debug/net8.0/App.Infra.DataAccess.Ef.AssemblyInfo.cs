@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("App.Infra.DataAccess.Ef")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4549d9b8f1b0efd6de9f47d38745894c0a742660")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f947ff30a10ecbec927df30263c65cdc6e20274")]
 [assembly: System.Reflection.AssemblyProductAttribute("App.Infra.DataAccess.Ef")]
 [assembly: System.Reflection.AssemblyTitleAttribute("App.Infra.DataAccess.Ef")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

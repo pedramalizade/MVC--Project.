@@ -3,15 +3,15 @@
 
 
 <div class="container px-5 my-5">
-    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+    <form asp-controller="User" asp-action="Transfer" method="post">
         <div class="form-floating mb-3">
-            <select class="form-select" id="newField7" aria-label="New Field 7">
+            <select class="form-select" id="newField7" aria-label="Select Your Card">
                 @for (int i = 0; i < Model.Cards.Count; i++)
                 {
                     <option value="@Model.Cards[i].CardNumber">@Model.Cards[i].CardNumber</option>
                 }
             </select>
-            <label for="newField7">New Field 7</label>
+            <label for="Select Your Card">Select Your Card</label>
         </div>
         <div class="form-floating mb-3">
             <input class="form-control" id="recipientCardNumber" type="text" placeholder="Recipient Card Number" data-sb-validations="required" />
@@ -25,6 +25,14 @@
             <a class="btn btn-outline-success btn-success" type="button" style="color:white; height:auto;" id="button-addon1" asp-action="RandomCode">Code</a>
             <input type="number" class="form-control" name="code" style="margin:0px;" placeholder="Code.." aria-label="Example text with button addon" aria-describedby="button-addon1">
         </div>
+        @if(TempData["RandomCodeMessage"] is not null)
+        {
+            <div class="alert alert-warning">@TempData["RandomCodeMessage"]</div>
+        }
+        @if(TempData["CodeErrorMessage"] is not null)
+        {
+            <div class="alert alert-danger">@TempData["CodeErrorMessage"]</div>
+        }
         <div class="d-grid">
             <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
         </div>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zTJma+fKc/WiJYwKy9HPJDI1PeFNSy6GXcn/OKD9leG8ImT3EufjfNkZG5YhvPiDSiS2iOlqYkEsYEuvXtOzrQ==",
+  "dgSpecHash": "6sg7RfPVCIU=",
   "success": true,
   "projectFilePath": "C:\\Users\\asus\\source\\repos\\Core\\App.Infra.Data.Db.SqlServer.Ef\\App.Infra.DataBase.SqlServer.csproj",
   "expectedPackageFiles": [
@@ -84,5 +84,12 @@
     "C:\\Users\\asus\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

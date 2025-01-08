@@ -9,6 +9,7 @@ using App.Domain.Core.Core_App.UserAggrigate.Entities;
 using App.Domain.Core.Core_App.UserAggrigate.Services;
 using App.Domain.Service.Core_App.CardAggrigate;
 using App.Domain.Service.Core_App.UserAggrigate;
+using App.EndPoints.MVC.Core_App.Models;
 using App.Infra.DataBase.InMemory;
 using App.Infra.DataBase.SqlServer;
 using Microsoft.IdentityModel.Tokens;
@@ -104,10 +105,10 @@ void UserMenu()
         switch (option)
         {
             case 1:
-                Console.Clear();
-                var userid = InMemoryDb.OnlineUser.Id;
-                userService.ShowCardBalance(userid);
-                Console.ReadKey();
+                //Console.Clear();
+                //var userid = InMemoryDb.OnlineUser.Id;
+                //userService.ShowCardBalance(userid);
+                //Console.ReadKey();
                 break;
             case 2:
                 Console.Write("Enter card number: ");
@@ -122,26 +123,26 @@ void UserMenu()
                 Wellcome();
                 break;
             case 4:
-                var userId = InMemoryDb.OnlineUser.Id;
-                Console.WriteLine("Enter Card Number: ");
-                var carNumber = Console.ReadLine();
-                Console.Write("Enter Passsword: ");
-                var cardPassword = Console.ReadLine();
-                Console.Write("Enter card Name: ");
-                var cardName = Console.ReadLine();
-                Console.Write("Enter a Balance: ");
-                var balance = int.Parse(Console.ReadLine());
-                var AddCard = new Card
-                {
-                    CardNumber = carNumber,
-                    Password = cardPassword,
-                    HolderName = cardName,
-                    Balance = balance,
-                    IsActive = true,
-                    FailedAttempts = 0
+                //var userId = InMemoryDb..Id;
+                //Console.WriteLine("Enter Card Number: ");
+                //var carNumber = Console.ReadLine();
+                //Console.Write("Enter Passsword: ");
+                //var cardPassword = Console.ReadLine();
+                //Console.Write("Enter card Name: ");
+                //var cardName = Console.ReadLine();
+                //Console.Write("Enter a Balance: ");
+                //var balance = int.Parse(Console.ReadLine());
+                //var AddCard = new Card
+                //{
+                //    CardNumber = carNumber,
+                //    Password = cardPassword,
+                //    HolderName = cardName,
+                //    Balance = balance,
+                //    IsActive = true,
+                //    FailedAttempts = 0
 
-                };
-                userService.AddCard(userId, AddCard);
+                //};
+                //userService.AddCard(userId, AddCard);
                 break;
             case 5:
                 Console.Write("Enter a card Number: ");
@@ -174,21 +175,21 @@ void Wellcome()
         return;
     }
 
-    bool IsCodeValid(int code)
-    {
-        if (codes.ContainsKey(code) && codes[code] > DateTime.Now)
-        {
-            return true;
-        }
-        if (codes.ContainsKey(code) && codes[code] < DateTime.Now)
-        {
-            codes.Remove(code);
-            Console.WriteLine("The code Has Expired.");
-            return false;
-        }
-        Console.WriteLine("The Entered code is wrong.");
-        return false;
-    }
+    //Result IsCodeValid(int code)
+    //{
+    //    if (codes.ContainsKey(code) && codes[code] > DateTime.Now)
+    //    {
+    //        return true;
+    //    }
+    //    if (codes.ContainsKey(code) && codes[code] < DateTime.Now)
+    //    {
+    //        codes.Remove(code);
+    //        Console.WriteLine("The code Has Expired.");
+    //        return false;
+    //    }
+    //    Console.WriteLine("The Entered code is wrong.");
+    //    return false;
+    //}
 
     while (true)
     {
@@ -228,16 +229,16 @@ void Wellcome()
                             Console.Clear();
                             Console.WriteLine("Enter the code: ");
                             var ccode = int.Parse(Console.ReadLine());
-                            var isCodeValid = IsCodeValid(ccode);
-                            if (isCodeValid)
-                            {
-                                var transactions = transactionService.Transfer(cardNumber, destinationCardNumber, amount);
-                                Console.WriteLine(transactions);
-                            }
-                            else
-                            {
-                                Console.WriteLine($"invalid code: {isCodeValid}");
-                            }
+                            //var isCodeValid = IsCodeValid(ccode);
+                            //if (isCodeValid)
+                            //{
+                            //    var transactions = transactionService.Transfer(cardNumber, destinationCardNumber, amount);
+                            //    Console.WriteLine(transactions);
+                            //}
+                            //else
+                            //{
+                            //    Console.WriteLine($"invalid code: {isCodeValid}");
+                            //}
                             break;
                     }
                 }
